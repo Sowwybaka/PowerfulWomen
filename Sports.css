@@ -1,0 +1,95 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+/* ----------------------------------------Custom Css------------------------------------- */
+#bannerimg{
+  background-image: url("https://645290-2122447-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/10/Women-in-Sports-Conference_-brandspurng.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Serena{
+  background-image: url("https://www.biography.com/.image/t_share/MTgwNTMwNTM0MDMwNTE3NjA4/gettyimages-1155421342.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Ronda{
+  background-image: url("https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2563796.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Simone{
+  background-image: url("https://media.npr.org/assets/img/2021/09/28/gettyimages-13322630901_wide-2e642b73ba03df7c753f134282f02fdec964e118-s1100-c50.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Paige{
+  background-image: url("https://nypost.com/wp-content/uploads/sites/2/2020/08/paige-vanzant-bare-knuckle-fighting-mma.jpg?quality=80&strip=all");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,90 @@
+.container {
+    max-width: 960px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  /* ----------------------------------------Custom Css------------------------------------- */
+  #bannerimg{
+    background-image: url("https://news.janegoodall.org/wp-content/uploads/2018/03/women-in-stem-banner1.jpg");
+    background-size: cover;
+  }
+  #Emilie{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/1200x675/p094fm0r.jpg");
+    background-size: cover;
+  }
+  #Chien{
+    background-image: url("https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTgxMDg2MTkxNjY2NDcyMjk2/gettyimages-515185238-copy.jpg");
+    background-size: cover;
+  }
+  #Maria{
+    background-image: url("https://www.bbvaopenmind.com/wp-content/uploads/2017/08/Maria-Mitchell-1.jpeg");
+    background-size: cover;
+  }
+  #Francoise{
+    background-image: url("https://www.fredhutch.org/content/dam/public/communications/Photo/2014/08-August/140828/hlrg-140827-francoise-barre-sinoussi-470px.jpg");
+    background-size: cover;
+  }
